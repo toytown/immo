@@ -1,0 +1,76 @@
+body {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	color: #333333;
+	background-color: #F9F9F9;
+}
+
+h1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+}
+
+#preview_main {
+	float: left;
+	background: aqua;
+	margin: 5px 0px 5px 5px;
+	width:800px;
+}
+#preview_address {
+	float: left;
+	background: blue;
+	margin: 5px 0px 5px 5px;
+}
+#preview_contacts {
+	float: left;
+	background: yellow;
+	margin: 5px 0px 5px 5px;
+}
+#preview_top {
+	float: left;
+	background: aqua;
+	margin: 5px 0px 5px 5px;
+}
+h3 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+}
+#preview_desc {
+	float: left;
+	background: yellow;
+	width:800px;
+	margin: 5px 0px 5px 5px;
+}
+
+#div-1a {
+	float: left;
+	width: 220px;
+	background: aqua;
+	margin: 5px 0px 5px 5px; 
+}
+
+#div-1b {
+	float: left;
+	width: 220px;
+	background: yellow;
+	margin: 5px 5px 5px 5px; 
+}
+#div-1c {
+	float: left;
+	width: 250px;
+	background: gray;
+	margin: 5px 5px 5px 5px; 
+}
+#div-1d {
+	clear: both;
+}
+#preview_details {
+	float: left;
+	background: aqua;
+	margin: 5px 0px 5px 5px;
+	width:800px;
+}

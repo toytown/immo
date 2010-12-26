@@ -1,0 +1,33 @@
+<html>
+<body>
+<wicket:panel>
+	<!-- Search Panel -->
+	<form wicket:id="searchForm">
+	<fieldset id="fieldset_search"><legend><wicket:message key="search" /></legend>
+	<ol>
+		<li><label id="label_small" for="city"><span wicket:id="cityLabel"/></label>
+			<input id="input_medium" type="text" wicket:id="city" size="10" />
+		</li>
+		<li><label id="label_small" for="rooms"><span wicket:id="roomsLabel" /></label>
+			<input id="input_small" type="text" wicket:id="roomsFrom" size="2" />&nbsp;-&nbsp;
+			<input id="input_small" type="text" wicket:id="roomsTo" size="2" />
+		</li>
+		<li><label id="label_small" for="sizeFrom"><span wicket:id="sizeLabel" /></label>
+			<input id="input_small" type="text" wicket:id="sizeFrom" size="2" />&nbsp;-&nbsp;
+			<input id="input_small" type="text" wicket:id="sizeTo" size="2" />
+		</li>
+		<li><label id="label_small" for="cost"><span wicket:id="costLabel" /></label>
+			<input id="input_small" type="text" wicket:id="costFrom" size="2" />&nbsp;-&nbsp;
+			<input id="input_small" type="text" wicket:id="costTo" size="2" />
+		</li>
+		<li><input type="submit" wicket:id="searchButton" value="search" /></li>	
+	</ol>
+
+	<div wicket:id="feedback">[[ feedback ]]</div>
+	</fieldset>
+	</form>
+
+</wicket:panel>
+<br/>
+</body>
+</html>

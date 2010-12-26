@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml2/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Language" content="en-us" />
+<title>5 column CSS Layout</title>
+<style type="text/css">
+html,body {
+	height: 100% font :   normal normal arial, helevtica, verdana,
+		sans-serif;
+	color: #000;
+}
+
+#container {
+	height: 100%;
+	padding: 5px;
+	background: #CCC;
+}
+
+#col_one {
+	margin: 0;
+	/* Applied to first column only in lieu of padding (personal thing) */
+	width: 18%; /* Allows for fluid design. Can be set to pixels */
+	float: left;
+	background: #cff; /* Only here so you can see the different columns */
+	border: thin solid #000;
+	/* again, just so you can see the different columns */
+}
+
+#col_two {
+	margin: 0 0 0 10px;
+	/* Puts a 10 pixel space between columns (left side) - think cellspacing */
+	width: 18%;
+	float: left;
+	background: #6cf; /* Only here so you can see the different columns */
+	border: thin solid #000;
+	/* again, just so you can see the different columns */
+}
+
+#col_three {
+	margin: 0 0 0 10px;
+	/* Puts a 10 pixel space between columns (left side) - think cellspacing */
+	width: 18%;
+	float: left;
+	background: #3cf; /* Only here so you can see the different columns */
+	border: thin solid #000;
+	/* again, just so you can see the different columns */
+}
+
+#col_four {
+	margin: 0 0 0 10px;
+	/* Puts a 10 pixel space between columns (left side) - think cellspacing */
+	width: 18%;
+	float: left;
+	background: #0cf; /* Only here so you can see the different columns */
+	border: thin solid #000;
+	/* again, just so you can see the different columns */
+}
+
+#col_five {
+	margin: 0 0 0 10px;
+	/* Puts a 10 pixel space between columns (left side) - think cellspacing */
+	width: 18%;
+	float: left;
+	background: #09c; /* Only here so you can see the different columns */
+	border: thin solid #000;
+	/* again, just so you can see the different columns */
+}
+/* Note: adding larger margins or padding to columns requires that you decrease the width setting proportionally,
+that is why the width is currently set to 18%. If you add padding to the container, the same applies. */
+</style>
+</head>
+
+<body>
+<div id="container">
+<div id="col_one">column One column One column One column One
+column One column One column One column One column One column One column
+One column One</div>
+<div id="col_two">column Two column Two column Two column Two
+column Two column Two column Two column Two</div>
+<div id="col_three">column Three column Three column Three column
+Three column Three column Three column Three column Three column Three
+column Three</div>
+<div id="col_four">Colimn Four column Four column Four column Four
+column Four column Four column Four column Four column Four column Four
+column Four column Four column Four column Four column Four column Four
+column Four</div>
+<div id="col_five">column Five column Five column Five column Five
+column Five column Five column Five column Five column Five column Five
+column Five column Five column Five column Five column Five column Five
+column Five column Five column Five column Five column Five column Five
+column Five column Five</div>
+<br style="clear: both;" />
+<!-- Included to force the container to wrap the columns --></div>
+</body>
+
+</html>

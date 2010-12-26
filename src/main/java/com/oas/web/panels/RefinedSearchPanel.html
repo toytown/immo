@@ -1,0 +1,54 @@
+<wicket:panel>
+	<form wicket:id=refinedSearchForm>
+		<fieldset><legend>refined search</legend>
+		<h4>Wohnungstyp:</h4>
+		<span wicket:id="appartmentTypesChoice">appartmentTypesChoice</span>
+		<h4>Ausstattung / Sonstiges:</h4>
+		<ol>
+		<li><label for="kitchenAvailable" wicket:id="kitchenAvailableLabel">kitchen</label>
+			<input type="checkbox" id="kitchenAvailable" wicket:id="kitchenAvailable" />
+		</li>
+		<li><label for="cellarAvailable" wicket:id="cellarAvailableLabel">celler</label>
+			<input type="checkbox" id="cellarAvailable" wicket:id="cellarAvailable" />
+		</li>
+		<li><label for="balconyAvailable" wicket:id="balconyAvailableLabel">balcony</label>
+			<input type="checkbox" id="balconyAvailable" wicket:id="balconyAvailable" />
+		</li>
+		<li><label for="garageAvailable" wicket:id="garageAvailableLabel">garage</label>
+			<input type="checkbox" id="garageAvailable" wicket:id="garageAvailable" />
+		</li>
+		<li><label for="energyPassAvailable" wicket:id="energyPassAvailableLabel">energy pass</label>
+			<input	type="checkbox" id="energyPassAvailable" wicket:id="energyPassAvailable" />
+		</li>
+		<li><label for="toiletWithBathRoomLabel" wicket:id="toiletWithBathRoomLabel">toilet with bath room</label>
+			<input	type="checkbox" id="toiletWithBathRoom" wicket:id="toiletWithBathRoom" />
+		</li>		
+		<li><label for="gardenAvailableLabel" wicket:id="gardenAvailableLabel">garden</label>
+			<input	type="checkbox" id="gardenAvailable" wicket:id="gardenAvailable" />
+		</li>		
+		<li><label for="liftAvailableLabel" wicket:id="liftAvailableLabel">liftAvailable</label>
+			<input	type="checkbox" id="liftAvailable" wicket:id="liftAvailable" />
+		</li>		
+		<li><label for="furnishedLabel" wicket:id="furnishedLabel">furnished</label>
+			<input	type="checkbox" id="furnished" wicket:id="furnished" />
+		</li>		
+		<li><label for="barrierFreeLabel" wicket:id="barrierFreeLabel">barrierFree</label>
+			<input	type="checkbox" id="barrierFree" wicket:id="barrierFree" />
+		</li>
+		<li><label for="provisionFreeLabel" wicket:id="provisionFreeLabel">provisionFree</label>
+			<input	type="checkbox" id="provisionFree" wicket:id="provisionFree" />
+		</li>
+		<li><label for="seniorAppartmentLabel" wicket:id="seniorAppartmentLabel">seniorAppartment</label>
+			<input	type="checkbox" id="seniorAppartment" wicket:id="seniorAppartment" />
+		</li>	
+		<li><label for="builtYearLabel" wicket:id="builtYearLabel">builtYearFrom</label>
+			<input	type="text" id="builtYearFrom" wicket:id="builtYearFrom" /> &nbsp;
+			<input	type="text" id="builtYearTo" wicket:id="builtYearTo" />
+		</li>
+		</ol>		
+		<input align="center" type="submit" wicket:id="submit" value="submit" class="btn"/>
+		</fieldset>
+	</form>
+		
+
+</wicket:panel>

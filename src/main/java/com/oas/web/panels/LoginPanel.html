@@ -1,0 +1,36 @@
+<wicket:panel>
+	<div id="loginpanel">
+		<div id="loginbox">
+			<p class="logintitle"><strong>Login</strong></p>
+			<form wicket:id="loginForm">
+			<table cellpadding="2" cellspacing="4" border="0" width="95%"
+				align="center">
+				<tr>
+					<td colspan="2" height="5"></td>
+				</tr>
+				<tr>
+					<td width="25%"><wicket:message key="userName" /></td>
+					<td width="75%" class="frmuname"><input wicket:id="userName"
+						type="text" name="userName" /></td>
+				</tr>
+				<tr>
+					<td><wicket:message key="password" /></td>
+					<td class="frmuname"><input wicket:id="password" type="password"
+						name="password" /></td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+					<td><input type="submit" value="login" class="button"></td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+					<td><a href="#">Forgot Password</a> | <a href="#"> Register</a></td>
+				</tr>
+				<tr>
+					<td><span wicket:id="feedback" /></td>
+				</tr>
+			</table>
+			</form>
+		</div>
+	</div>
+</wicket:panel>

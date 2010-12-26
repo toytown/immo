@@ -1,0 +1,145 @@
+@charset "utf-8";
+/* CSS Document */
+
+*html{height:100%}
+body{
+	background:url(../images/body_bg.jpg) repeat-x top;
+	margin:0px;
+	padding:0px;
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size:12px;
+	}
+
+div h1 {
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+}
+
+div h3 {
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+}
+
+#input_medium {
+	background: #ffffff no-repeat left center;
+	border: 1px solid #85b1de;
+	color: #808080;
+	font-weight: normal;
+	font-family: "Lucida Grande", Verdana, sans-serif;
+	height: 18px;
+	padding-left: 1px;
+	padding-top: 2px;
+	width: 105px;
+	font-size: 1em;
+	vertical-align: middle;
+	text-decoration: none;
+	-moz-border-radius-bottomleft: 4px;
+	-moz-border-radius-bottomright: 4px;
+	-moz-border-radius-topleft: 4px;
+	-moz-border-radius-topright: 4px;
+	margin: 1px 2px 4px 4px;
+}
+
+#input_small {
+	background: #ffffff no-repeat left center;
+	border: 1px solid #85b1de;
+	color: #808080;
+	font-weight: normal;
+	font-family: "Lucida Grande", Verdana, sans-serif;
+	height: 18px;
+	padding-left: 1px;
+	padding-top: 2px;
+	width: 40px;
+	font-size: 1em;
+	vertical-align: middle;
+	text-decoration: none;
+	-moz-border-radius-bottomleft: 4px;
+	-moz-border-radius-bottomright: 4px;
+	-moz-border-radius-topleft: 4px;
+	-moz-border-radius-topright: 4px;
+	margin: 1px 2px 4px 4px;
+}
+
+textArea {
+	background: #ffffff no-repeat left center;
+	border: 1px solid #85b1de;
+	color: #808080;
+	font-weight: normal;
+	font-family: "Lucida Grande", Verdana, sans-serif;
+	height: 250px;
+	padding-left: 1px;
+	padding-top: 2px;
+	width: 500px;
+	font-size: 1em;
+	vertical-align: middle;
+	text-decoration: none;
+	-moz-border-radius-bottomleft: 4px;
+	-moz-border-radius-bottomright: 4px;
+	-moz-border-radius-topleft: 4px;
+	-moz-border-radius-topright: 4px;
+	margin: 1px 2px 4px 4px;
+}
+
+input:hover {
+	border: #d3d3d3 3px solid;
+}
+
+#label_small {
+	float: left;
+	width: 5em;
+	margin-right: 1em;
+	text-align: right;
+}
+
+label {
+	float: left;
+	width: 12em;
+	margin-right: 1em;
+	text-align: right;
+}
+
+label.large {
+	float: left;
+	width: 10em;
+	margin-right: 1em;
+	text-align: right;
+}
+
+label.check,label.radio {
+	position: relative;
+	text-align: left;
+}
+
+label:after {
+	content: ":";
+}
+
+legend {
+	margin-left: 1em;
+	padding: 1px;
+	color: #000;
+	font-weight: bold;
+}
+
+legend span {
+	position: absolute;
+	left: 0.74em;
+	top: 0;
+	margin-top: 0.5em;
+	font-size: 135%;
+}
+
+#fieldset_search {
+	float: left;
+	clear: both;
+	width: 400px;
+	margin: 0 0 1.5em 0;
+	padding: 0 0 1em 0;
+	background-color: #F2EFE9;
+	position: relative;
+	border: 1px solid #CCA383;
+}

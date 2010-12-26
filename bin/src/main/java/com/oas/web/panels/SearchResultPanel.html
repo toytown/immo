@@ -1,0 +1,71 @@
+<html>
+<wicket:head>  
+  <wicket:link>  
+    <link rel="stylesheet" type="text/css" href="css/oas_style.css"/>   
+  </wicket:link>  
+</wicket:head>  
+<body>
+<wicket:panel>
+<div>
+	<div id="refineSearchPanel">
+		<form wicket:id="searchForm">
+		<fieldset><legend><wicket:message key="search" /></legend> 
+		<ol>
+			<li><label id="label_small" for="city"><span wicket:id="cityLabel" /></label> <input id="input_medium"
+				type="text" wicket:id="city" size="10" /></li>
+			<li><label id="label_small" for="rooms"><span wicket:id="roomsLabel" /></label> <input id="input_small"
+				type="text" wicket:id="roomsFrom" size="2" />&nbsp;-&nbsp; <input id="input_small" type="text" wicket:id="roomsTo"
+				size="2" /></li>
+			<li><label id="label_small" for="sizeFrom"><span wicket:id="sizeLabel" /></label> <input id="input_small"
+				type="text" wicket:id="sizeFrom" size="2" />&nbsp;-&nbsp; <input id="input_small" type="text" wicket:id="sizeTo"
+				size="2" /></li>
+			<li><label id="label_small" for="cost"><span wicket:id="costLabel" /></label> <input id="input_small"
+				type="text" wicket:id="costFrom" size="2" />&nbsp;-&nbsp; <input id="input_small" type="text" wicket:id="costTo"
+				size="2" /></li>
+			<li><input type="submit" wicket:id="searchButton" value="search" /></li>
+		</ol>
+	
+		<div wicket:id="feedback">[[ feedback ]]</div>
+		</fieldset>
+		</form>
+		<div wicket:id="refinedSearchPanel"/>refined search panel</div>
+	</div>
+	
+	<div id="resultNavigation">
+		<div wicket:id="sortingPanel">sorting panel</div>		
+	</div>
+		
+	<div wicket:id="searchResultContainer">
+		<div wicket:id="navigator">paging navigator</div>		
+		<div wicket:id="appartmentAdvertView">
+		<table class="previewTable">
+			<tr>
+				<td rowspan="3">
+					<wicket:link>
+						<a wicket:id="detailImageLink"><img wicket:id="title_image" /></a>
+					</wicket:link>
+				</td>
+				<td colspan="3" class="appartmentTitle">
+					<div wicket:id="title">title</div>
+				</td>
+				<td rowspan="3">
+					<div><a wicket:id="detailLink">details</a></div>
+				</td>				
+				<td rowspan="3">
+					<div><a wicket:id="favouritesLink">Merken</a></div>
+				</td>
+			</tr>
+			<tr>
+				<td><span wicket:id="rooms">rooms</span></td>
+				<td><span wicket:id="size">size</span></td>
+				<td><span wicket:id="cost">cost</span></td>
+			</tr>
+			<tr>
+				<td colspan="3"><span wicket:id="location">location</span></td>
+			</tr>
+		</table>
+		</div>
+	</div>			
+</wicket:panel>
+</body>
+</html>

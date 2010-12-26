@@ -1,0 +1,122 @@
+<html>
+<body>
+<wicket:panel>
+<div>&nbsp;</div>
+	<br/><form wicket:id="realStateAdvertForm">
+	<fieldset><legend><wicket:message key="advertPanelForm.title" /></legend>
+	<ol>
+		<li><label for="titleDescription" wicket:id="titleDescriptionLabel">title</label> 
+			<input type="text" id="titleDescription" wicket:id="titleDescription" size="70" />
+		</li>
+		<li><label for="availableFrom" wicket:id="availableFromLabel">available from</label>
+			<span type="text" wicket:id="availableFrom" />
+		</li>
+		<li><label for="builtYear" wicket:id="builtYearLabel">built year</label>
+			<input type="text" id="builtYear" wicket:id="builtYear" />
+		</li>
+		<li><label for="description" wicket:id="descriptionLabel">appartment desc</label>
+			<textarea id="description" wicket:id="description">appartmentDescription</textarea> 
+		</li>
+		<li><label for="areaDescription" wicket:id="areaDescriptionLabel">area desc</label>
+			<textarea id="areaDescription" wicket:id="areaDescription">areaDescription</textarea>
+		</li>
+		<li><label for="activationDate" wicket:id="activationDateLabel">activation date</label>
+			<span type="text" wicket:id="activationDate" />
+		</li>
+		<li><label for="city" wicket:id="cityLabel">city</label>
+			<input type="text" id="city" wicket:id="city" />
+		</li>		
+		<li><label for="areaCode" wicket:id="areaCodeLabel">area code</label>
+			<input type="text" id="areaCode" wicket:id="areaCode" />
+		</li>
+		<li><label for="street" wicket:id="streetLabel">street</label>
+			<input type="text" id="street" wicket:id="street" />
+		</li>
+		<li><label for="houseNo" wicket:id="houseNoLabel">houseNo</label>
+			<input type="text" id="houseNo" wicket:id="houseNo" />
+		</li>		
+		<li><label for="floor" wicket:id="floorLabel">floor</label>
+			<input type="text" id="floor" wicket:id="floor" />
+		</li>
+		<li><label for="totalFloors" wicket:id="totalFloorsLabel">totalFloors</label>
+			<input type="text" id="totalFloors" wicket:id="totalFloors" />
+		</li>								
+		<li><label for="size" wicket:id="sizeLabel">area code</label>
+			<input type="text" id="size" wicket:id="size" />
+		</li>
+		<li><label for="cost" wicket:id="costLabel">cost</label>
+			<input type="text" id="cost" wicket:id="cost" />
+		</li>
+		<li><label for="additionalCost" wicket:id="additionalCostLabel">additionalCost</label>
+			<input type="text" id="additionalCost" wicket:id="additionalCost" />
+		</li>		
+		<li><label for="depositPeriod" wicket:id="depositPeriodLabel">depositPeriod</label>
+			<input type="text" id="depositPeriod" wicket:id="depositPeriod" />
+		</li>
+		<li><label for="provisionFree" wicket:id="provisionFreeLabel">provision free</label>
+			<input type="checkbox" id="provisionFree" wicket:id="provisionFree" />
+		</li>				
+		<li><label for="provisionCondition" wicket:id="provisionConditionLabel">provision condition</label>
+			<input type="text" id="provisionCondition" wicket:id="provisionCondition" />
+		</li>		
+		<li><label for="totalRooms" wicket:id="totalRoomsLabel">area code</label>
+			<input type="text" id="totalRooms" wicket:id="totalRooms" />
+		</li>
+		<li><label for="bedRooms" wicket:id="bedRoomsLabel">area code</label>
+			<input type="text" id="bedRooms" wicket:id="bedRooms" />
+		</li>
+		<li><label for="bathRooms" wicket:id="bathRoomsLabel">bathrooms</label>
+			<input type="text" id="bathRooms" wicket:id="bathRooms" />
+		</li>
+		<li><label for="kitchenAvailable" wicket:id="kitchenAvailableLabel">kitchen</label>
+			<input type="checkbox" id="kitchenAvailable" wicket:id="kitchenAvailable" />
+		</li>
+		<li><label for="cellarAvailable" wicket:id="cellarAvailableLabel">celler</label>
+			<input type="checkbox" id="cellarAvailable" wicket:id="cellarAvailable" />
+		</li>
+		<li><label for="balconyAvailable" wicket:id="balconyAvailableLabel">balcony</label>
+			<input type="checkbox" id="balconyAvailable" wicket:id="balconyAvailable" />
+		</li>
+		<li><label for="garageAvailable" wicket:id="garageAvailableLabel">garage</label>
+			<input type="checkbox" id="garageAvailable" wicket:id="garageAvailable" />
+		</li>
+		<li><label for="energyPassAvailable" wicket:id="energyPassAvailableLabel">energy pass</label>
+			<input	type="checkbox" id="energyPassAvailable" wicket:id="energyPassAvailable" />
+		</li>
+		<li><label for="toiletWithBathRoomLabel" wicket:id="toiletWithBathRoomLabel">toilet with bath room</label>
+			<input	type="checkbox" id="toiletWithBathRoom" wicket:id="toiletWithBathRoom" />
+		</li>		
+		<li><label for="gardenAvailableLabel" wicket:id="gardenAvailableLabel">garden</label>
+			<input	type="checkbox" id="gardenAvailable" wicket:id="gardenAvailable" />
+		</li>		
+		<li><label for="liftAvailableLabel" wicket:id="liftAvailableLabel">liftAvailable</label>
+			<input	type="checkbox" id="liftAvailable" wicket:id="liftAvailable" />
+		</li>		
+		<li><label for="furnishedLabel" wicket:id="furnishedLabel">furnished</label>
+			<input	type="checkbox" id="furnished" wicket:id="furnished" />
+		</li>		
+		<li><label for="categoryTypes" wicket:id="categoryTypesLabel">real State types</label>
+			<select	name="categoryTypes" id="categoryTypes" wicket:id="categoryTypes"></select>
+		</li>
+		<li><label for="heatingTypes" wicket:id="heatingTypesLabel">heating type</label>
+			<select name="heatingTypes"	id="heatingTypes" wicket:id="heatingTypes"></select>
+		</li>
+		<li><label for="fittings" wicket:id="fittingsLabel">fittings</label>
+			<input type="text" id="fittings" wicket:id="fittings" />
+		</li>
+		<li><label for="otherInformation" wicket:id="otherInformationLabel">others</label>
+			<input type="text" id="otherInformation" wicket:id="otherInformation" />
+		</li>
+		<li><label for="lastRenovatedYear" wicket:id="lastRenovatedYearLabel">lastRenovatedYear</label>
+			<input type="text" id="lastRenovatedYear" wicket:id="lastRenovatedYear" />
+		</li>		
+		<li><input align="center" type="submit" wicket:id="submitAdvertisement" value="next" class="btn"/></li>
+	</ol>
+	</fieldset>
+	</form>
+
+	<span wicket:id="uploadPanel">upload Panel</span>
+</wicket:panel>
+
+</body>
+</html>

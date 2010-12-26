@@ -1,0 +1,65 @@
+<html xmlns:wicket>
+<body>
+<wicket:panel>
+	<div id="loginpanel">
+	<div id="loginbox">
+	<p class="logintitle"><strong>Login</strong></p>
+	<span wicket:id="feedback" />
+
+	<form wicket:id="signInForm">
+	<table cellpadding="2" cellspacing="4" border="0" width="95%"
+		align="center">
+		<tr>
+			<td colspan="2" height="5"></td>
+		</tr>
+		<tr>
+			<td width="25%">Username</td>
+			<td width="75%" class="frmuname"><input wicket:id="username"
+				type="text" class="txtbox" /></td>
+		</tr>
+		<tr>
+			<td>Password</td>
+			<td class="frmuname"><input wicket:id="password" type="password"
+				class="txtbox" /></td>
+		</tr>
+		<tr wicket:id="rememberMeRow">
+			<td></td>
+			<td><input wicket:id="rememberMe" type="checkbox" /> Remember
+			Me</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td><input type="submit" wicket:id="login" value="Sign In" /></td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td><a href="#">Forgot Password</a> | <a href="#" wicket:id="customerRegistration"> Register</a></td>
+		</tr>
+	</table>
+	</form>
+	</div>
+	
+	<div id="searchpanel">
+	<table cellpadding="0" cellspacing="0" width="100%" border="0">
+		<tr>
+			<td colspan="3" height="12"></td>
+		</tr>
+		<tr>
+			<td width="29%" align="center">Search ID</td>
+			<td width="49%" class="bgtxtsearch"><input type="text"
+				class="txtsearch" /></td>
+			<td width="22%"><img src="images/btn_search.png" alt="Search"
+				title="Search" width="57" height="25" /></td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+	</table>
+
+</div>
+</div>
+</wicket:panel>
+</body>
+</html>

@@ -1,0 +1,223 @@
+<!doctype html public '-//W3C//DTD HTML 4.01//EN' 'http://www.w3.org/TR/html4/strict.dtd'>
+<html>
+<head>
+<meta http-equiv=content-type content="text/html; charset=utf-8">
+<title>Create Link Buttons with simple CSS and HTML</title>
+<style>
+
+div.btns{
+	zoom:1;
+	white-space:nowrap;
+}
+
+div.btns:after
+{
+	display:block;
+	clear:both;
+	content:'';
+}
+
+div.btns a.btn{
+	float:left;
+	background:buttonface url(border-2.gif) no-repeat;cursor:pointer;font-size:0;text-align:center;
+	text-align:center;
+	display:block;
+	_width:140px;
+	min-width:140px;
+	text-decoration:none;
+	margin:3px 2px;
+}
+
+div.btns a.btn:hover span{
+	
+	opacity:0.6;
+	filter:alpha(opacity:80);
+}
+
+div.btns a.btn span
+{
+	padding:3px 8px 4px 8px;
+	
+	text-align:center;
+	position:relative;
+	left:1px;top:1px;
+	display:block;
+	text-decoration:none;
+	background:url(border.gif) right bottom no-repeat;
+	font:small/1 Verdana;
+	color:#222;
+	
+}
+
+xmp{
+	margin:0;
+	font-size:1.2em;
+}
+body{
+	font:0.75em/1.3 Verdana;
+}
+
+</style>
+
+
+
+</head>
+<body>
+<h1>Create Link Buttons with simple CSS and HTML</h1>
+
+
+<h2>How?</h2>
+<ul>
+ <li><h3>Just one <a href="border.gif">image</a>, two tags, and some CSS rules</h3></li>
+ <li><p>Please view source to see how the CSS works</p></li>
+ <li>Tested and compatible with IE6, Opera9, Firefox 2.0, Safari 2.0</li>
+</ul>
+
+<h2>Syntax of the HTML</h2>
+
+<xmp>
+<div class="btns">
+	<a href="#"  class="btn" ><span>button</span></a>	
+</div>
+</xmp>
+
+
+<h2>Why?</h2>
+<p>Many developers hate nested DIVs and SPANs for round corners and tired of fighting with designers</p>
+
+
+
+
+<h2>Example : default style</h2>
+
+<div class="btns">
+	<a href="?"  class="btn" >
+
+		<span>button 7</span>
+	</a>
+	<a href="?"  class="btn" >
+		<span>button 8</span>
+	</a>
+	<a href="?"  class="btn" >
+		<span>button 9</span>
+
+	</a>
+	<a href="?"  class="btn" >
+		<span>button 10</span>
+	</a>
+	<a href="?"  class="btn" >
+		<span>button 11</span>
+	</a>
+	<a href="?"  class="btn" >
+
+		<span>button 12</span>
+	</a>
+</div>
+
+<h2>Example : random texts</h2>
+
+<div class="btns">
+	<a href="?"  class="btn" >
+		<span> &laquo;an  &raquo; </span>
+
+	</a>
+	<a href="?"  class="btn" >
+		<span> &laquo;an vehicula quam.  &raquo; </span>
+	</a>
+	<a href="?"  class="btn" >
+		<span> &laquo;an vehicula qu &raquo; </span>
+
+	</a>
+	<a href="?"  class="btn" >
+		<span> &laquo;an vehicula quam &raquo; </span>
+	</a>
+	<a href="?"  class="btn" >
+		<span> &laquo;san v &raquo; </span>
+
+	</a>
+	<a href="?"  class="btn" >
+		<span> &laquo;n vehicula  &raquo; </span>
+	</a>
+</div>
+
+
+<h2>Example : different colors</h2>
+
+<div class="btns">
+	<a href="?"  class="btn" style="background-color:rgb(241,205,254)">
+		<span>button 7</span>
+	</a>
+	<a href="?"  class="btn" style="background-color:rgb(218,223,255)">
+		<span>button 8</span>
+	</a>
+	<a href="?"  class="btn" style="background-color:rgb(231,255,208)">
+
+		<span>button 9</span>
+	</a>
+	<a href="?"  class="btn" style="background-color:rgb(246,242,237)">
+		<span>button 10</span>
+	</a>
+	<a href="?"  class="btn" style="background-color:rgb(231,226,255)">
+		<span>button 11</span>
+
+	</a>
+	<a href="?"  class="btn" style="background-color:rgb(207,207,206)">
+		<span>button 12</span>
+	</a>
+</div>
+
+
+<h2>Example : different colors and font sizes</h2>
+
+<div class="btns">
+	<a href="?"  class="btn" style="background-color:rgb(215,227,243);">
+
+		<span style="font:20px/1 Arial !important;;color:rgb(23,42,71);">button 7</span>
+	</a>
+	<a href="?"  class="btn" style="background-color:rgb(223,246,220);">
+		<span style="font:18px/1 Arial !important;;color:rgb(36,72,18);">button 8</span>
+	</a>
+	<a href="?"  class="btn" style="background-color:rgb(226,238,228);">
+		<span style="font:29px/1 Arial !important;;color:rgb(68,6,89);">button 9</span>
+
+	</a>
+	<a href="?"  class="btn" style="background-color:rgb(246,250,235);">
+		<span style="font:19px/1 Arial !important;;color:rgb(46,10,48);">button 10</span>
+	</a>
+	<a href="?"  class="btn" style="background-color:rgb(233,213,233);">
+		<span style="font:29px/1 Arial !important;;color:rgb(75,37,41);">button 11</span>
+	</a>
+	<a href="?"  class="btn" style="background-color:rgb(255,244,206);">
+
+		<span style="font:16px/1 Arial !important;;color:rgb(62,48,85);">button 12</span>
+	</a>
+</div>
+
+
+
+<h2>Note</h2>
+<p>For IE developers, don't forget to check <a href="http://www.hedgerwow.com/360/bugs/dom-fix-ie6-background-image-flicker.html">
+No More IE6 Background Flicker</a>, too.</p>
+
+<script>
+	
+(function(){
+
+	/*Use Object Detection to detect IE6*/
+	var  m = document.uniqueID /*IE*/
+	&& document.compatMode  /*>=IE6*/
+	&& !window.XMLHttpRequest /*<=IE6*/
+	&& document.execCommand ;
+	
+	try{
+		if(!!m){
+			m("BackgroundImageCache", false, true) /* = IE6 only */ 
+		}
+		
+	}catch(oh){};
+})();
+</script>
+
+
+</body>
+</html>

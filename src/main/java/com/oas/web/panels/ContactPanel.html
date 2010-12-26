@@ -1,0 +1,25 @@
+<wicket:panel>
+	
+	<form wicket:id="contactForm">
+		<fieldset><legend><wicket:message key="contact" /></legend>
+			<ol>
+			<li><label for="firstName" wicket:id="firstNameLabel">firstName</label> 
+				<input type="text" id="firstName" wicket:id="firstName"/>
+			</li>
+			<li><label for="lastName" wicket:id="lastNameLabel">lastName</label> 
+				<input type="text" id="lastName" wicket:id="lastName"/>
+			</li>	
+			<li><label for="phone" wicket:id="phoneLabel">phone</label> 
+				<input type="text" id="phone" wicket:id="phone"/>
+			</li>	
+			<li><label for="email" wicket:id="emailLabel">email</label> 
+				<input type="text" id="email" wicket:id="email"/>
+			</li>
+			<li><label for="message" wicket:id="messageLabel">message</label> 
+				<input type="text" id="message" wicket:id="message" />
+			</li>
+			<li><input align="center" type="submit" wicket:id="submitMesssage"/></li>							
+			</ol>
+		</fieldset>		
+	</form>
+</wicket:panel>

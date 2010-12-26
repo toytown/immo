@@ -1,0 +1,77 @@
+<html>
+<body>
+<wicket:panel>
+	<!-- Search Panel -->
+	<form wicket:id="userRegistrationForm">
+	<fieldset><legend>User Information</legend>
+	<ol>
+		<li><label for="title" wicket:id="titleLabel">title</label>
+			<input type="text" id="title" wicket:id="title" size="10" />
+		</li>
+		<li><label for="firstName" wicket:id="firstNameLabel">firstName</label>
+			<input type="text" id="firstName" wicket:id="firstName" size="120" />
+		</li>
+		<li><label for="lastName" wicket:id="lastNameLabel">lastName</label>
+			<input type="text" id="lastName" wicket:id="lastName" size="120" />
+		</li>
+		<li><label for="companyName" wicket:id="companyNameLabel">companyName</label>
+			<input type="text" id="companyName" wicket:id="companyName" size="2" />
+		</li>
+		<li><label for="userName" wicket:id="userNameLabel">userName</label>
+			<input type="text" id="userName" wicket:id="userName" size="10" />
+		</li>
+		<li><label for="password" wicket:id="passwordLabel">password</label>
+			<input type="password" id="password" wicket:id="password" size="10" />
+		</li>
+				<!-- 
+		<li><span wicket:id="userCategoryGroup">
+				<label>User Category</label>
+				<span wicket:id="userCategory">
+					<input type="radio" wicket:id="userCategory"/>
+				</span>
+			</span>
+		</li>
+		 -->
+		<p align="center"><input type="submit" wicket:id="register" value="register" /></p>
+	</ol>
+	</fieldset>
+ 
+
+	<fieldset><legend>Contact Details</legend>
+	<ol>
+		<li><label for="city" wicket:id="cityLabel">city</label>
+			<input type="text" id="city" wicket:id="city" size="5" />
+		</li>
+		<li><label for="zip" wicket:id="zipLabel">zip</label>
+			<input type="text" id="zip" wicket:id="zip" size="5" />
+		</li>
+		<li><label for="street" wicket:id="streetLabel">street</label>
+			<input type="text" id="street" wicket:id="street" size="5" />
+		</li>
+		<li>	
+			<label for="houseNumber" wicket:id="houseNumberLabel">houseNo</label>
+			<input type="text" id="houseNumber" wicket:id="houseNumber" size="5" />
+		</li>
+		<li><label for="email" wicket:id="emailLabel">email</label>
+			<input type="text" id="email" wicket:id="email" size="5" />
+		</li>
+		<li><label for="fax" wicket:id="faxLabel">fax</label>
+			<input type="text" id="fax" wicket:id="fax" size="5" />
+		</li>						
+		<li><label for="phone1" wicket:id="phone1Label">phone1</label>
+			<input type="text" id="phone1" wicket:id="phone1" size="15" />
+		</li>
+		<li><label for="mobile" wicket:id="mobileLabel">mobile</label>
+			<input type="text" id="mobile" wicket:id="mobile" size="5" />
+		</li>						
+		<li><label for="homePageURL" wicket:id="homePageURLLabel">homepage</label>
+			<input type="text" id="homePageURL" wicket:id="homePageURL" size="5" />
+		</li>								
+	</ol>	
+	</fieldset>
+
+	</form>
+</wicket:panel>
+</body>
+
+</html>

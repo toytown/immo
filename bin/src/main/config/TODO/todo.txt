@@ -1,0 +1,117 @@
+features
+========
+- appartment category
+   (change search form criteria based on category)
+- cancel button for edit and delete
+- customer search criterias
+
+   
+- advanced search functionality 
+  c) sorting panel (price, size, rooms, insert date) - done
+  e) at least one critera ()
+  f) select area codes inside the city
+  g) gallery view
+  
+- large image navigation panel (done)
+
+- free and business package
+
+- bread crumbs
+
+- house type
+ Haustyp:
+
+    * Bauernhaus (0)
+    * Doppelhaushälfte (6)
+    * Einfamilienhaus (3)
+    * Villa (0)
+    * Reihenhaus (4)
+    * Mehrfamilienhaus (1)
+    * Bungalow (0)
+    * Besondere Immobilie (0)
+    * Sonstige (1)
+
+
+-- grund stuck
+ Vermarktung:
+
+    * Erbpacht (27)
+    * Kauf
+
+
+ Baugenehmigung:
+
+    * Ja (3)
+
+ Bebaubar nach:
+
+    * Aussengebiet (0)
+    * Bebauungsplan (3)
+    * wie Nachbarbebauung (10)
+
+ Erschließung:
+
+    * Erschlossen (16)
+    * Teilerschlossen (0)
+    * Unerschlossen (0)
+
+
+Validation
+===========
+-- advertisement
+-- 
+  
+critical bugs
+=============
+- wrong password leads to error message 
+- favourites link does not work (use loadable detachable model)
+- duplicate image uploads during edit
+- no user connected for new inserts
+- when unchecked the model should be updated
+- details, add to favourites link is search result panel (done)
+- forget password link
+- contact submit
+- image upload 
+- Appartment state - new, renovated, needs renovation, other, heating method
+- appartment advert type = wohnung, hauser etc
+- user category
+- google maps on for detail view
+- switching title panel
+- search other engines
+
+- validators (add advertisement)
+- printer, email icon validation action 
+- user password forget feature (done)
+- deactivate advertisement (after 4 weeks) from date of activation
+
+features backlog
+================
+- buy killet software 
+- search by town specific area
+
+
+
+improvements
+============
+- page navigation improvement between pages (user page --> search page)
+- max image load validation
+- no result then no paginator
+- session improvements for AppartmentAdvertisement
+- searchRequest validation
+- date selector
+- image upload improvements
+- autocomplete of area code based on city and vice versa
+- edit user profile (done)
+- internationalization
+
+
+
+
+major css/html 
+================
+- css refactoring
+- navigation refactoring
+- button sizing, input box sizing
+
+done
+=====

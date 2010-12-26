@@ -1,0 +1,28 @@
+<html>
+<body>
+	<wicket:panel>
+		<div wicket:id="searchResultContainer">
+			<div wicket:id="appartmentAdvertView">
+				<table class="previewTable">
+					<tr>
+						<td rowspan="3"><wicket:link><a wicket:id="showDetailLink"><img wicket:id ="title_image"/></a></wicket:link></td>
+						<td colspan="3" class="appartmentTitle"><div wicket:id="title">title</div></td>	
+						<td rowspan="3"><wicket:link><a wicket:id="editLink">edit</a></wicket:link></td>
+						<td rowspan="3"><wicket:link><a wicket:id="deleteLink">delete</a></wicket:link></td>
+					</tr>
+					<tr>
+						<td><span wicket:id="rooms">rooms</span></td>
+						<td><span wicket:id="size">size</span></td>
+						<td><span wicket:id="cost">cost</span></td>
+					</tr>
+					<tr>
+						<td colspan="3"><span wicket:id="location">location</span></td>
+					</tr>			
+				</table>
+			</div>
+			<div wicket:id="navigator">navigator</div>
+		</div>
+	
+	</wicket:panel>
+</body>
+</html>
